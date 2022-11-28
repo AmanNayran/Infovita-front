@@ -1,0 +1,24 @@
+div.login{
+    justify-content: center;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+div.login button.btn-login{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 6px;
+    transition: 0.5s;
+}
+div.login button.btn-login:hover{
+    background-color: gray;
+}
+
+div form.login{
+    display: grid;
+    justify-content: center;
+}
+div form.login input{
+    width: 250px;
+}

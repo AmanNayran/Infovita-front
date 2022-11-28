@@ -1,0 +1,41 @@
+div.home{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+div.home button{
+    transition: 0.5s;
+}
+div.home button:hover{
+    background-color: gray;
+}
+
+div.perfil{
+    text-align: left;
+    max-width: 210px;
+    padding: 20px 0px;
+}
+
+div.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 130px;
+}
+div.options div{
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+div.options div a{
+    transition: 0.5s;
+}
+div.options div a:hover{
+    transform: scale(105%);
+}
+
+div.options div img{
+    max-width: 66px;
+    justify-self: center;
+}

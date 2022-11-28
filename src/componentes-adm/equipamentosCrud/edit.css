@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    justify-content: center;
+
+
+    padding: 3rem 0;
+}
+
+.card-post {
+    padding: 30px 70px;
+    border: 1px solid black;
+}
+
+.card-post h1{
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+.line-post {
+    height: 2px;
+    background-color: #3E445B;
+}
+
+.card-body-post {
+    margin-top: 25px;
+
+}
+
+.fields {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 7px;
+    font-size: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+input {
+    height: 45px;
+}
+
+textarea {
+    height: 190px;
+    resize: none;
+    padding-top: 10px;
+}
+
+.btn-edit{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 60px;
+}
+
+.btn-voltar{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px 60px;
+}
+

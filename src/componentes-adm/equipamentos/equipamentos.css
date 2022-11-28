@@ -1,0 +1,53 @@
+div.body{
+    display: flex;
+    justify-content: space-around;
+}
+div.body button{
+    transition: 0.5s;
+}
+div.body button:hover{
+    background-color: gray;
+}
+
+/* Aba Esquerda */
+div.left{
+    text-align: left;
+    max-width: 200px;
+    padding: 200px 10px;
+}
+
+/* Seções */
+section.equipList, section.equipData{
+    min-width: 33%;
+    border-left: 1px solid gray;
+    padding: 50px;
+
+    height:560px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+section.equipList li, section.equipData li{
+    list-style-type: none;
+}
+
+/* Lista de Equipamentos */
+section.equipList form ul{
+    padding: 5px;
+    border: 1px solid black;
+}
+section.equipList form button{
+    padding: 5px;
+    padding: auto;
+}
+
+/* Dados de Equipamentos */
+section.equipData li ul{
+    padding: 0px;
+}
+section.equipData form#form-edicao{
+    display: none;/*---> Esse muda de 'none' para 'grid', e vice-versa*/
+    grid-template-columns: 250px;
+}
+section.equipData form#form-edicao input, section.equipData form#form-edicao button{
+    margin-bottom: 10px;
+}
